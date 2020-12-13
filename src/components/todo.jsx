@@ -21,8 +21,8 @@ class Todo extends Component {
     }
 
     restTasks = () => {
-        this.state.lists = []
-        this.setState({lists:this.state.lists})
+        // this.state.lists = []
+        this.setState({lists:[]})
     }
 
     
