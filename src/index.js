@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tailwindcss/dist/tailwind.min.css'
 import Todo from './components/todo'
-import List from './components/list'
+
 
 ReactDOM.render(
   <React.StrictMode>
